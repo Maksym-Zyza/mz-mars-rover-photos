@@ -1,0 +1,2 @@
+(this["webpackJsonpmz-mars-rover-photos"]=this["webpackJsonpmz-mars-rover-photos"]||[]).push([[0],{9:function(e,r,t){"use strict";t.r(r);var n=t(1),o=t.n(n),s=t(3),c=t.n(s),i=t(0);var h=function(){return Object(i.jsx)("div",{children:Object(i.jsx)("h1",{children:"Hello!"})})};c.a.render(Object(i.jsx)(o.a.StrictMode,{children:Object(i.jsx)(h,{})}),document.getElementById("root"))}},[[9,1,2]]]);
+//# sourceMappingURL=main.1a520479.chunk.js.map
