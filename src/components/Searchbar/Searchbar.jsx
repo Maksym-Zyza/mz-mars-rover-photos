@@ -33,6 +33,11 @@ class Searchbar extends React.Component {
 
     return (
       <header className="Searchbar">
+        <img
+          class="nasa_logo"
+          alt="nasa_logo"
+          src="https://api.nasa.gov/assets/img/favicons/favicon-192.png"
+        ></img>
         <form onSubmit={this.handleSubmit} className="SearchForm">
           <div className="SearchForm_block">
             <h3 className="SearchForm_title">Mars Rover</h3>
@@ -63,7 +68,7 @@ class Searchbar extends React.Component {
           </div>
 
           <div className="SearchForm_block">
-            <h3 className="SearchForm_title"> Sol - day of Mars</h3>
+            <h3 className="SearchForm_title"> Sol</h3>
             <input
               className="SearchForm-input"
               name="sol"
@@ -73,10 +78,11 @@ class Searchbar extends React.Component {
               onChange={e => this.setState({ sol: e.target.value })}
             />
           </div>
-
-          <button type="submit" className="SearchForm-button">
-            <span className="SearchForm-button-label">Search</span>
-          </button>
+          <div className="SearchForm_block">
+            <button type="submit" className="SearchForm-button">
+              <span className="SearchForm-button-label">Search</span>
+            </button>
+          </div>
         </form>
       </header>
     );

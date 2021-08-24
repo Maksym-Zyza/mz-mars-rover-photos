@@ -7,7 +7,7 @@ import Modal from './components/Modal';
 import Loader from './components/Loader';
 import Message from './components/Message';
 import scrollTo from './services/scrollTo';
-import './styles.css';
+import './styles.scss';
 
 class App extends React.Component {
   state = {
@@ -56,9 +56,8 @@ class App extends React.Component {
 
     if (e.target.nodeName === 'IMG') {
       this.setState({ largeImg: { src } });
+      this.toggleModal();
     }
-
-    this.toggleModal();
   };
 
   toggleModal = () => {

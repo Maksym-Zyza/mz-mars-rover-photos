@@ -4,16 +4,12 @@ const Message = () => {
   return (
     <div>
       <h2>Explore NASA's Mars expeditions.</h2>
-      <h3>
-        Choose a rover (Curiosity, Opportunity, Spirit), Sol (day of Mars) and
-        camera.
-      </h3>
+      <h3>Choose Mars Rover, Camera and Sol (Mars day).</h3>
       <p>
-        Curiosity has a camera - FHAZ, RHAZ, MAST, CHEMCAM, MAHLI, MARDI,
-        NAVCAM.
+        "Curiosity" cameras - FHAZ, RHAZ, MAST, CHEMCAM, MAHLI, MARDI, NAVCAM.
       </p>
       <p>
-        Opportunity and Spirit have cameras - FHAZ, RHAZ, NAVCAM, PANCAM,
+        "Opportunity" and "Spirit" cameras - FHAZ, RHAZ, NAVCAM, PANCAM,
         MINITES.
       </p>
     </div>

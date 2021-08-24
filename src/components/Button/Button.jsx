@@ -1,17 +1,24 @@
 import PropTypes from 'prop-types';
+// import { makeStyles } from '@material-ui/core/styles';
+import Button from '@material-ui/core/Button';
 
-const Button = ({ onClick }) => {
+const ButtonLoad = ({ onClick }) => {
   return (
     <div className="btnDiv">
-      <button className="Button" type="button" onClick={onClick}>
+      <Button
+        variant="contained"
+        color="primary"
+        type="button"
+        onClick={onClick}
+      >
         Load more
-      </button>
+      </Button>
     </div>
   );
 };
 
-Button.propTypes = {
+ButtonLoad.propTypes = {
   onClick: PropTypes.func.isRequired,
 };
 
-export default Button;
+export default ButtonLoad;
