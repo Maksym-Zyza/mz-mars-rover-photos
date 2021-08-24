@@ -21,7 +21,7 @@ class App extends React.Component {
   };
 
   componentDidMount() {
-    // this.fetchImages();
+    this.fetchImages();
   }
 
   componentDidUpdate(prevProps, prevState) {
@@ -69,7 +69,7 @@ class App extends React.Component {
   render() {
     const { images, isLoading, showModal, error } = this.state;
     const { src } = this.state.largeImg;
-    const renderBtn = images.length > 0 && !isLoading;
+    const renderBtn = images.length > 24 && !isLoading;
     const nothing = images.length === 0;
     console.log(images);
 

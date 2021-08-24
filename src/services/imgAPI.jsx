@@ -6,13 +6,17 @@ const API_KEY = 'DEMO_KEY';
 
 axios.defaults.baseURL = BASE_URL;
 axios.defaults.params = {
-  sol: 1,
+  sol: 1000,
   page: 1,
   api_key: API_KEY,
-  // camera: 'fhaz',
 };
 
-const getImg = async ({ rover, camera, sol, page }) => {
+const getImg = async ({
+  rover = 'curiosity',
+  camera = 'MAST',
+  sol = 1000,
+  page,
+}) => {
   try {
     const { data } = await axios.get(`${rover}/photos/`, {
       params: { sol, page, camera },

@@ -4,9 +4,9 @@ class Searchbar extends React.Component {
   state = {
     rovers: ['Curiosity', 'Opportunity', 'Spirit'],
     cameras: [
+      'MAST',
       'FHAZ',
       'RHAZ',
-      'MAST',
       'CHEMCAM',
       'MAHLI',
       'MARDI',
@@ -16,7 +16,7 @@ class Searchbar extends React.Component {
     ],
     sol: 1000,
     rover: 'Curiosity',
-    camera: 'FHAZ',
+    camera: 'MAST',
   };
 
   handleSubmit = e => {
@@ -34,7 +34,7 @@ class Searchbar extends React.Component {
     return (
       <header className="Searchbar">
         <img
-          class="nasa_logo"
+          className="nasa_logo"
           alt="nasa_logo"
           src="https://api.nasa.gov/assets/img/favicons/favicon-192.png"
         ></img>
