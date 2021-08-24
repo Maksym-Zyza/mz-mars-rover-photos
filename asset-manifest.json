@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mz-mars-rover-photos/static/css/main.77dcd8d5.chunk.css",
-    "main.js": "/mz-mars-rover-photos/static/js/main.9c2e584a.chunk.js",
-    "main.js.map": "/mz-mars-rover-photos/static/js/main.9c2e584a.chunk.js.map",
+    "main.js": "/mz-mars-rover-photos/static/js/main.e15be201.chunk.js",
+    "main.js.map": "/mz-mars-rover-photos/static/js/main.e15be201.chunk.js.map",
     "runtime-main.js": "/mz-mars-rover-photos/static/js/runtime-main.be12d85f.js",
     "runtime-main.js.map": "/mz-mars-rover-photos/static/js/runtime-main.be12d85f.js.map",
     "static/css/2.bc922b9c.chunk.css": "/mz-mars-rover-photos/static/css/2.bc922b9c.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.bc922b9c.chunk.css",
     "static/js/2.c923c788.chunk.js",
     "static/css/main.77dcd8d5.chunk.css",
-    "static/js/main.9c2e584a.chunk.js"
+    "static/js/main.e15be201.chunk.js"
   ]
 }
