@@ -6,7 +6,6 @@ import getImg from './services/imgAPI';
 import Modal from './components/Modal';
 import Loader from './components/Loader';
 import Message from './components/Message';
-import scrollTo from './services/scrollTo';
 import './styles.scss';
 
 class App extends React.Component {
@@ -81,7 +80,7 @@ class App extends React.Component {
 
         {isLoading && <Loader isLoading={isLoading} />}
 
-        {renderBtn && <Button onClick={this.fetchImages} scroll={scrollTo()} />}
+        {renderBtn && <Button onClick={this.fetchImages} />}
 
         {showModal && <Modal src={src} onClose={this.toggleModal} />}
 
